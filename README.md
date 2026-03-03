@@ -58,6 +58,8 @@ Provides the templates and governance logic used to define problems, constraints
 
 #### System Map
 
+#### System Map
+
 ```mermaid
 flowchart TB
   A[Intake] --> B[Scoping]
@@ -76,18 +78,14 @@ flowchart TB
   I --> J[Feedback Loop]
   J --> C
 
-  %% Governance overlays
   K[(Constraints)]
   L[(Acceptance Criteria)]
   M[(Definition of Done)]
 
-```mermaid
-flowchart TB
-  ...
- 
   K -.-> B
   L -.-> H
   M -.-> I
+
 ```
 ## How It’s Used
 
