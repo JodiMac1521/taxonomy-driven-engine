@@ -56,7 +56,7 @@ Documents the lifecycle of a SprintWork™ project from intake to delivery and f
 Provides the templates and governance logic used to define problems, constraints, effort, and definition-of-done.  
 (See `/docs/scoping.md`)
 
-#### System Map
+
 
 #### System Map
 
