@@ -57,6 +57,8 @@ Provides the templates and governance logic used to define problems, constraints
 (See `/docs/scoping.md`)
 
 #### System Map
+
+```mermaid
 flowchart TB
   A[Intake] --> B[Scoping]
   B --> C[Taxonomy Classification]
@@ -78,7 +80,7 @@ flowchart TB
   K[(Constraints)]
   L[(Acceptance Criteria)]
   M[(Definition of Done)]
-
+```
   K -.-> B
   L -.-> H
   M -.-> I
