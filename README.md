@@ -56,7 +56,32 @@ Documents the lifecycle of a SprintWork™ project from intake to delivery and f
 Provides the templates and governance logic used to define problems, constraints, effort, and definition-of-done.  
 (See `/docs/scoping.md`)
 
----
+#### System Map
+flowchart TB
+  A[Intake] --> B[Scoping]
+  B --> C[Taxonomy Classification]
+
+  C --> D{Routing Decision}
+  D -->|Automate| E[AI Execution]
+  D -->|Human Review| F[Human Execution]
+  D -->|Hybrid| G[AI + Human Collaboration]
+
+  E --> H[Quality Assurance]
+  F --> H
+  G --> H
+
+  H --> I[Delivery]
+  I --> J[Feedback Loop]
+  J --> C
+
+  %% Governance overlays
+  K[(Constraints)]
+  L[(Acceptance Criteria)]
+  M[(Definition of Done)]
+
+  K -.-> B
+  L -.-> H
+  M -.-> I
 
 ## How It’s Used
 
