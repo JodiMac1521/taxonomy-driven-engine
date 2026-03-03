@@ -106,7 +106,7 @@ It is designed to be extensible for product, ops, and API-level implementation.
 **Scaling Revenue Without Scaling Headcount**  
 How a taxonomy-driven, human-in-the-loop AI system reduced intake time by 83% and increased project value by 40%.
 
-→ /docs/case-study-scaling-trust.md
+→ [Read the full case study](docs/case-study-scaling-trust.md)
 ---
 
 ## Contact
