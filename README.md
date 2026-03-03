@@ -80,11 +80,15 @@ flowchart TB
   K[(Constraints)]
   L[(Acceptance Criteria)]
   M[(Definition of Done)]
-```
+
+```mermaid
+flowchart TB
+  ...
+ 
   K -.-> B
   L -.-> H
   M -.-> I
-
+```
 ## How It’s Used
 
 This operating system supports:
